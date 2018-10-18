@@ -1,0 +1,9 @@
+class User 
+{
+    _age = 0;
+
+    setAge(age)
+    {
+        _age = age;
+    }
+}
