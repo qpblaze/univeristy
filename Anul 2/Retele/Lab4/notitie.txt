@@ -1,0 +1,46 @@
+wait trebuie sa aiba grija de curatenie
+enter se transmite prin canal
+comenzile sunt executate secvential
+primim date de dimensiuni variabile (nu dam o marime cat mai mare) se transmite inainte dimensiunea continutului astfel tatal stie exact cati octeti are de citit
+parintele nu executa comenzi - o citeste si o transmite la copil - copilul o executa iar parintele afiseaza pe ecran rezultatul
+autentificare: nu i se permite utilizatorului sa execute comenzile daca nu este autentificat
+    ii transmitem unui proces copil usernameul (avem un fisier cu nume si comparam)
+quit: terminam - sa avem grija la copii sa nu ramanem cu procese zombii
+myfind, mystat
+    fara exec si system - trebuie sa le implementam noi
+    gasim un fisier recursiv
+    lucram cu structura directoarele si apiul de directoare din C
+
+stat - informatii de fisier
+    - functia de sistem stat (man 2 stat - putem folosi)
+findul cere si afisarea atributelor
+reutilizam functionalitatea findului din cod
+
+predare saptamana viitore
+implementare: pipe, fifo sau sockets
+orice facem este punctat
+design..
+
+
+Sem
+Socketpair
+    nu ne batem capul ci cine si cum scrie
+    2 socketuri interconectate
+    alegem ca procesul parinte sa foloseasca socketul a si procesul copil socketul batem
+    pot fi folosite doar in cazul proceselor inrudite
+    da copilul trimite informatii tatalui scrie in socketul lui nu in cel al parintelui
+    se folosesc buffere diferite pentru citire scriere (nu se amesteca datele)
+
+sockp - descriptior catre un socket si catre celalalt
+inchidem socketul neutilizat
+
+daca apare fork in cod trebuie sa apara si wait
+
+folosim socket pair - imbunatatim cel existent
+parintele primeste url
+transmite unui copil, copilul downloadeaza
+hardcodam in copil numele fisierului
+copilul sa-l deschida sa-l parseze si sa ii trimita parintelui continutul
+nu avem dimensiune
+cum facem readul in parinte
+

@@ -1,0 +1,25 @@
+ps -procese
+
+wget - download file
+ctrl + z - suspendeaza proces
+ctrl + c - inchide un proces
+
+kill - termina executia unui proces
+kill -l - lista de semnale
+kill by default trimite un semnal de terminare normala a unui proces
+
+top - incarcarea sistemului
+
+fork - creeaza procesul copil
+fork - valoarea returnata 0 => procesul copil
+wait - asteptam pentru procesele copil
+
+execlp - executa comenzi din program
+
+!!! signal - nu trimite semnale, ea face maparea
+
+Exercitii:
+1. ??
+2. Un proces tata ce primeste de la tastatura un url
+Copilul descarca resursa
+Tatal cere alt url si tot asa

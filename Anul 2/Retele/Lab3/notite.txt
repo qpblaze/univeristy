@@ -1,0 +1,20 @@
+pipe - procese inrudite
+    canale anonime
+fifo - canale cu nume
+fisiere cu nume salvate pe disc
+
+asemnare
+    dupa ce sunt citite informatiile acestea sunt extrase
+
+pipe-urile sunt in memorie si sunt limitate
+ -ex: cum putem afisa capacitatea unui pipe
+
+ operatiile read/write sunt blocante
+    read pe un canal gol tine blocat procesul pana primeste ceva de citite
+    write tine canalul blocat pana se goleste (pana este citit din el)wget
+
+pipe[2]
+
+index 0 capatul de citire
+index 1 capatul de scriere
+
