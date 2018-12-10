@@ -1,0 +1,40 @@
+Sa se idenditifice din acest fisier:
+a) Secventele de forma data:lista din cadrul elementelor <object>, unde lista trebuie 
+sa indeplineasca conditiile:
+  - este incadrata de paranteze patrate, contine cel putin un element
+  - fiecare element poate fi: un cuvant format din litere mici, de lungime para, care 
+ contine ab
+  - un numar impar < 3000
+  Afisati secventele intr-un fisier data.txt
+b) identificatori care reprezinta descrieri in cadrul unor obiecte (afisati separat)
+
+<object>
+ data:[aaba,abbbxz,cdddab,11];
+ description:obj1;
+</object>
+
+description:notInteresting
+
+<object>
+ data:[xcab,ab,abaa,1235]
+ description:obj2
+</object>
+
+data:[xabd,ddabdd]
+
+<object>
+ data:[aaba,]
+</object>
+
+<object>
+ data:[aaba,11,2345
+</object>
+
+
+<object>
+data:[aabx,abbabb]
+</object>
+
+
+
+

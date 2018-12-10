@@ -1,0 +1,5 @@
+Scrieti intr-un fisier toate cuvintele formate din litere mici care incep cu v, se termina cu numar impar de cd si sunt incadrate de . .
+Afisati pe ecran toate numerele care incep cu 2 cifre pare si sunt divizibile cu 5 si contin macar o cifra impara
+
+
+.vcd..vcd.

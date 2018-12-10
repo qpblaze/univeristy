@@ -1,0 +1,27 @@
+Raport + ceva cod sursa
+Sa gandim proiectul si sa il proiectam
+
+- introducere: sa scriem prin propriile cuvinte care sunt cerintele proiectului
+- tehnologii utilizate - tcp, udp sau ambele (de ce l-am ales)
+- Argitectura aplicatiei, conceptele implicate
+	link catre aplicatie web
+	diagrama care sa reprezente arhitectura aplicatiei
+- detailii de implementare
+	sa fie descris protocolul prin care transmitem comenzile ??
+	trebuie sa venim cu cod functional executabil ce contine doar comunicarea (conectarea la server, clientul sa poata citi comenzile)
+	fara implementarea functionalitatilor !!!
+	use case-uri - explicam ce facem in caz ca se intampla ceva (bine sau rau)
+- concluzii 
+	fara povesti
+	ce am putea face si imbunatati - notam la concluzii
+- bibliografie
+	tot ce folosim
+lncs
+
+
+----------------------------
+Multiplexare intrari si iesiri.
+read/write fara sa fie neblocant.
+
+select (.., citire, screire, exceptie, ...)
+

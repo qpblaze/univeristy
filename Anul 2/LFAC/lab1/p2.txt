@@ -1,0 +1,38 @@
+Sa se identifice din fisierul de intrare (acest fisier):
+- elemente de tip itemi din liste html (ordonate si neordonate) care contin litere mici, cifre si spatii albe. Elementele care nu sunt precedate de <ol> sau <ul>, sau care sunt in afara unei secvente de tip <ul> </ul>, <ol> </ol> vor fi ignorate.
+- intre taguri pot fi oricate spatii albe
+- toate tagurile deschise sunt corect inchise si nu necesita verificare
+
+
+
+<ul><li>123asdea</li><li>asdf-a</li><li>nouh87g</li><li>p90uhiausv86f</li></ul>
+
+<ol>
+<li>123asdea</li>
+<li>as
+dfa
+
+
+</li>
+<li>no u	h 87g</li>
+<li>p90uhiausv86f</li>
+</ol>
+
+<li>123asdea</li>
+<li>
+asdf-a
+
+</li>
+<li>nouh87g</li>
+
+
+<ul>
+
+<li>123asdea</li>
+
+<li>asd </li><li>nouh87g</li>
+
+<li>p90uhiausv86f</li></ul>
+
+
+<ol></ol>

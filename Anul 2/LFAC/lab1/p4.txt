@@ -1,0 +1,19 @@
+
+Taguri span ce au id
+sunt in div
+contin numere de minim 3 cifre div cu 5
+sau siruri de lungime impara ce nu se termina cu bb
+
+sadabb
+
+898
+456
+290
+098
+095
+345
+<span  id="da3923">  290  </span>
+<span  id="da3923">  2948435  </span>
+<span  id="da3923">  cdd  </span>
+<span  id="da3923">  cbb </span>
+

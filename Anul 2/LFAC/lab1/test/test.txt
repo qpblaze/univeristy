@@ -1,0 +1,5 @@
+{xab,300,xyab} ab babb hhfj 
+x 12 abab y 
+x y {300,5000} {ab,xab} 
+{xab,300,xyabn} 
+

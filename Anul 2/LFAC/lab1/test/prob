@@ -1,0 +1,7 @@
+nr 2
+identificati dintr-un fisier de intrere
+
+- linii care contin cel putin 2 cuvinte formate doar din a-uri si b-uri - in fisierul linii.txt
+- afisam pe ecran liste elemente {el,el,...,el} cu cel putin 2 el
+	fiecare el poate sa fie un cuvant de lungime impara care contine "ab"
+	numar >= 300

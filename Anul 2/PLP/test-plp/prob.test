@@ -1,0 +1,13 @@
+int x, y, z, k;
+x = 10;
+fork();
+if (0 == 0) {
+    x = 0;
+    print("parent");
+}
+else {
+    x = 15;
+    print("child");
+}
+
+print(x);

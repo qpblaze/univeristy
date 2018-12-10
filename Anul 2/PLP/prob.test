@@ -1,0 +1,11 @@
+int x, y, z, t, u, v;
+x = 5;
+z = 9;
+u = 7;
+y = x.dec()  ;
+y = x.dec() ;
+z = z.inc() ;
+u = u.inc()/u.dec() ;
+print(x);
+print(y);
+print(z);

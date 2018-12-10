@@ -1,0 +1,10 @@
+UPD
+
+nu este un protocol orientat conexiune
+
+----
+sa baga cate un caracter
+sa trimitem 70000 de caractere
+
+
+dimensiunea maxima poate sa fie diferita pentur orice conexiune - path mtu

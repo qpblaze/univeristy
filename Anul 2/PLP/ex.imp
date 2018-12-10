@@ -1,0 +1,31 @@
+int n;
+n = read();
+n = ++n;
+
+int y;
+y = 10;
+
+print("n = "); print(n); print("\n");
+print("y = "); print(y); print("\n");
+
+{
+  int n;
+  n = 214325;
+  int y;
+  y = 4;
+  print("in block1 n = "); print(n); print("\n");
+  print("in block1 y = "); print(y); print("\n");
+
+  {
+    int n;
+    n = 900000;
+    print("in block2 n = "); print(n); print("\n");
+    print("in block2 y = "); print(y); print("\n");
+  }
+
+  print("in block1 n = "); print(n); print("\n");
+  print("in block1 y = "); print(y); print("\n");
+
+}
+print("n = "); print(n); print("\n");
+print("y = "); print(y); print("\n");

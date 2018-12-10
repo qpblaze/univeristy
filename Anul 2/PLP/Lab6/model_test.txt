@@ -1,0 +1,13 @@
+citesete doua numere
+le inmulteste
+si le afiseaza
+
+5
+15 - sint
+25 - sem
+5 - evaluarea
+
+READ
+READ
+MUL
+PRINT

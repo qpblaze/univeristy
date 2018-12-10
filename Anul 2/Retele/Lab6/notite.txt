@@ -1,0 +1,16 @@
+IP - identifica in mod unic o masina
+port - identifica in mod unic o aplicatie
+nu se pot utiliza porturi mai mici de 1024 (sunt rezervate pentru administrator)
+api-uri ce trebuie aplate intr-o anumita ordine
+aplicatii iterative sau concurente
+
+parumetrul 2 la listen NU reprezinta numarl maxim de clienti cu care servrul poate comunica in acelasi timp
+listen creaza coada unde sunt plasate cererile de conexiune
+parumetrul 2 la listen stabileste dimensiunea cozii.
+
+Creati un fisier text config.txt
+si introducem doua linii de text ??
+www.facebook.com = 192.168.0.1
+www.google.com = 192.168.0.2
+clientul se conecteaza la server
+serverul returneaza adresa ip

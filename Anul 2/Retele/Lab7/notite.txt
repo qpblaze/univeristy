@@ -1,0 +1,8 @@
+fork dupa accept
+for cu tratare de erori
+separam executia copilului de a parintelui
+parintele accepta noi clienti
+
+exit in copil
+sigchld - semnal
+

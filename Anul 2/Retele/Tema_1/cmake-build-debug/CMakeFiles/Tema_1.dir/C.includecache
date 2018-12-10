@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ursaciuc/_Work/Univeristy/Anul 2/Retele/Tema_1/main.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+

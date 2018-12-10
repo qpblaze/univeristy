@@ -1,0 +1,4 @@
+int x, y, z, t, u, v;
+x = 5;
+y = x.inc()/x.inc()/x.dec();
+print ("x=", x);
