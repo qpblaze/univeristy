@@ -1,22 +1,18 @@
 %{
 	#include <stdio.h>
+	int out = 1;
 %}
 
 %s Class
 
-function_name ([a-zA-Z0-9])*
-delimiter [ \t\n]*
-
-arg_even {delimiter}([a-z0-9][a-z0-9])*{delimiter}
-arg_odd {delimiter}([a-z0-9][a-z0-9])*[a-z0-9]{delimiter}
-
-function_arg_even [ ]*\({arg_even}(,{arg_even})*\)
-function_arg_odd [ ]*\({arg_odd},{arg_odd},{arg_odd}\)
+name [ ]*([a-zA-Z0-9])*[ ]*
+name_imp [ ]*([a-zA-Z0-9])*[a-zA-Z0-9][ ]*
 
 %%
-class[ ]*\{ { BEGIN Class; }
-<Class>\} { BEGIN 0; }
-<Class>"  private function "{function_name}({function_arg_even}|{function_arg_odd}) { printf ("%s\n", yytext); }
+class[ ]*\{|cla[ ]*\{ { BEGIN Class; out = 0; }
+<Class>\} { BEGIN 0; out = 1; }
+<Class>("  private int"|"  protected int"){name}(,{name})*; { printf ("%s\n", yytext); }
+"public int"({name_imp},{name_imp},{name_imp})*,{name_imp},{name_imp} { if(out==1) printf ("%s\n", yytext); }
 .|\n ;  
 %%
 

@@ -3,7 +3,7 @@ Sa gandim proiectul si sa il proiectam
 
 - introducere: sa scriem prin propriile cuvinte care sunt cerintele proiectului
 - tehnologii utilizate - tcp, udp sau ambele (de ce l-am ales)
-- Argitectura aplicatiei, conceptele implicate
+- Arhitectura aplicatiei, conceptele implicate
 	link catre aplicatie web
 	diagrama care sa reprezente arhitectura aplicatiei
 - detailii de implementare

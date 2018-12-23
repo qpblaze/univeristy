@@ -1,23 +1,25 @@
 Sa se identifice din fisierul de intrare (acest fisier):
-- secvente de forma private function id(args), care apar in cadrul blocurilor class 
-(id este un identificator), unde args este o lista de:
-     - exact 3 argumente de lungime impara
-     - oricate agumente de lungime para
-    (fiecare argument, cu exceptia ultimului, este imediat urmat de o virgula,
-     in interiorul () pot exista oricat de multe spatii)
+- secvente de forma public int id*, care apar in afara blocurilor class (id este un identificator), unde id* este o lista care contine un numar de lungime 3k+2 de identificatori de lungime impara
+- secvente de forma private int id* sau protected int id*, care apar in cadrul blocurilor class (id este un identificator), unde id* este o lista care contine un numar oarecare de identificatori de lungime oarecare. Acele secvente care au numar par de id vor trebui scrise si intr-un fisier
+    (fiecare identificator, cu exceptia ultimului, este imediat urmat de o virgula, in interiorul declaratiilor sunt oricate spatii si se termina cu ;)
+- nu este permisa folosirea de functii de prelucrare de siruri de caractere
 
-class { 
-  public int a, b, c;
+cla { 
+  private int a, b, c;
   public function a1 (a, b, c)
   text incorect
-  private function bba (aa,bb,  ccdc,
-							abcd) 
+  private function bba (a,b,  cdc,
+							abd) 
   
   protected float a1;
 }
 
+
+private function bba (a,b,  cdc,
+							abd)
+							
 class {
-  private function a1 (a, b, c)
+  private function abf (a, b, c)
   text incorect
   private float a, b, c;
   private function bba (aa,  ccdc,
@@ -26,11 +28,11 @@ class {
   
 }
 
-private function a1 (a, b, c)
-public int aa, bb,   cc;
+private function b131 (a, b, c)
 protected float a;
 class {
   
+  protected int a, b,   c, fdg,    a;
   
   public int a;
   protected float b;
@@ -39,10 +41,12 @@ class {
 }
 text 
 
+private private function a1 (a, b, c, d, e, f, g, h, i)
+
 nu_este_clasa
 { private function a1 (a, b, c)}
-  public int a, b, c;
+  protected int a, b, c;
   protected float a1;
 }
 
-altceva
+altceva 

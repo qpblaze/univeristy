@@ -1,40 +1,52 @@
-Sa se idenditifice din acest fisier:
-a) Secventele de forma data:lista din cadrul elementelor <object>, unde lista trebuie 
-sa indeplineasca conditiile:
-  - este incadrata de paranteze patrate, contine cel putin un element
-  - fiecare element poate fi: un cuvant format din litere mici, de lungime para, care 
- contine ab
-  - un numar impar < 3000
-  Afisati secventele intr-un fisier data.txt
-b) identificatori care reprezinta descrieri in cadrul unor obiecte (afisati separat)
+Sa se identifice din fisierul de intrare (acest fisier):
+- secvente de forma public int id*, care apar in afara blocurilor class (id este un identificator), unde id* este o lista care contine un numar de lungime 3k+2 de identificatori de lungime impara
+- secvente de forma private int id* sau protected int id*, care apar in cadrul blocurilor class (id este un identificator), unde id* este o lista care contine un numar oarecare de identificatori de lungime oarecare. Acele secvente care au numar par de id vor trebui scrise si intr-un fisier
+    (fiecare identificator, cu exceptia ultimului, este imediat urmat de o virgula, in interiorul declaratiilor sunt oricate spatii si se termina cu ;)
+- nu este permisa folosirea de functii de prelucrare de siruri de caractere
 
-<object>
- data:[aaba,abbbxz,cdddab,11];
- description:obj1;
-</object>
-
-description:notInteresting
-
-<object>
- data:[xcab,ab,abaa,1235]
- description:obj2
-</object>
-
-data:[xabd,ddabdd]
-
-<object>
- data:[aaba,]
-</object>
-
-<object>
- data:[aaba,11,2345
-</object>
+cla { 
+  private int a, b, c;
+  public function a1 (a, b, c)
+  text incorect
+  private function bba (a,b,  cdc,
+							abd) 
+  
+  protected float a1;
+}
 
 
-<object>
-data:[aabx,abbabb]
-</object>
+private function bba (a,b,  cdc,
+							abd)
+							
+class {
+  private function abf (a, b, c)
+  text incorect
+  private float a, b, c;
+  private function bba (aa,  ccdc,
+							abcd) 
+  public float a, b, c, d;
+  
+}
 
+private function b131 (a, b, c)
+protected int a, b,   c, fdg,    a;
+protected float a;
+class {
+  
+  
+  public int a;
+  protected float b;
+  
+  private private function a1 (a, b, c)
+}
+text 
 
+private private function a1 (a, b, c, d, e, f, g, h, i)
 
+nu_este_clasa
+{ private function a1 (a, b, c)}
+  protected int a, b, c;
+  protected float a1;
+}
 
+altceva 
